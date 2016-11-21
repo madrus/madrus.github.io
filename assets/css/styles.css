@@ -1,0 +1,9 @@
+img.emoji {
+  display: inline;
+  margin: 0 0 0.2em;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 1em;
+}
