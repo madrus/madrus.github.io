@@ -14,7 +14,7 @@ tags:
   - walk-through
 ---
 
-> **<span style="color:#ac4142;">TL;DR --</span>** I have seen a number of posts on [Umbraco forum][umbraco-forum] with questions about deployment to [GoDaddy][godaddy] hosting provider. Many of them stayed either unresolved or the author would give up trying and switch to another hosting provider.
+> **<span style="color:#ac4142;">TL;DR --</span>** I have seen a number of posts on [Umbraco forum][umbraco-forum] with questions about deployment to [GoDaddy][godaddy] hosting provider. Many of those questions stayed either unresolved or the author would give up trying and switch to another hosting provider.
 >
 > In this article, I share my personal experience with GoDaddy deployment. It is a **deployment walk-though** of my Umbraco webprojects to GoDaddy's hosting space. I hope that following these steps, you also succeed in deploying your website to GoDaddy (and, by the way, many other hosting providers).
 
