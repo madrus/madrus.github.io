@@ -1,7 +1,3 @@
-#
-# This file contains configuration flags to customize your site
-#
-
 # Setup
 title:              Madrus's Webdings
 tagline:            Personal Notes on Web Development
@@ -38,7 +34,7 @@ footer-links:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-disqus: "madrus"
+disqus: madrus
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 #google_analytics:
@@ -59,7 +55,7 @@ paginate_path:      blog/page:num
 # About/contact
 author:
   name:             Andre Roussakoff
-  url:              http://www.madrus.nl
+  url:              http://madrus4u.com
   email:            madrus@gmail.com
 
 # Custom vars

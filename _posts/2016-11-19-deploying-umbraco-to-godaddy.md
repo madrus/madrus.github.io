@@ -3,6 +3,7 @@ layout: post
 title: Deploying Umbraco 7 to GoDaddy
 date: 2016-11-19
 published: true
+url: //madrus4u.com/umbraco/2016/11/19/deploying-umbraco-to-godaddy/
 comments: true # for Disqus
 categories:
   - umbraco
