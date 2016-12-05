@@ -123,6 +123,14 @@ Here are the examples of these files for Debug and Release.
 > **IMPORTANT**
 >
 > The transformations should reflect the targets of deployment, not the sources.
+>
+> Make sure that `system.codedom` segment at the end of the `Web.config` is empty:
+
+```xml
+<system.codedom>
+<!-- All is removed between the 2 tags-->
+</system.codedom>
+```
 
 When creating publish profiles, it may be necessary to add the `AutoParameterizationWebConfigConnectionStrings` key,  otherwise `Publish` may fail. (See the **FAQ section**.) For the local deployment to the localhost, you may choose to create the database with the **same name** as on GoDaddy and with the same user. Then with local deployment, we can deploy the website and the database incrementally as necessary.
 

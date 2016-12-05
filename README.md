@@ -27,9 +27,18 @@ For my theme, I have taken the [Lanyon Theme][2]. And here is its [source code l
 
 ## Creating Markdown posts
 
-    This is work in progress.
+This is work in progress.
 
-### Sorting
+## Enable Disqus comments
+
+So far, I have followed the [Disqus instructions for Jekyll](https://madrus4u.disqus.com/admin/install/platforms/jekyll/) and added the [Universal Code](https://madrus4u.disqus.com/admin/install/platforms/universalcode/) to my two blog posts.
+
+There are still questions:
+
+1. Have I set up `indentifier` and `url` correctly?
+2. How do I append `#disqus_thread` to the `href` attribute in my links?
+
+## Sorting
 
 * sort by blog post date descending:
 
