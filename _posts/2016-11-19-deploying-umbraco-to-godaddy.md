@@ -123,8 +123,8 @@ Here are the examples of these files for Debug and Release.
 > **IMPORTANT**
 >
 > The transformations should reflect the targets of deployment, not the sources.
->
-> Make sure that `system.codedom` segment at the end of the `Web.config` is empty:
+
+Make sure that `system.codedom` segment at the end of the `Web.config` is empty:
 
 ```xml
 <system.codedom>
