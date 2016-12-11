@@ -4,6 +4,18 @@
 
 For my theme, I have taken the [Lanyon Theme][2]. And here is its [source code link][3]. I have also found a very nice tutorial how to begin with it:  [GitHub Pages and Jekyll Beginner Video][4]. I have also decided to keep the original three posts of **Mark Otto** [@mdo](https://twitter.com/mdo) in my blog as an honor to his work and as an introduction to his theme.
 
+## Prerequisites
+
+In order to run the blog, we need **Ruby**, **Jekyll** and **Bundler**.
+
+```bash
+brew install ruby
+sudo gem install jekyll
+sudo gem install bundler
+cd path/to/the/blog/directory
+bundle install
+```
+
 ## Initial Project Setup
 
 * run the blog locally: `bundle exec jekyll serve`
