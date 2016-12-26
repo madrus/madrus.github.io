@@ -141,6 +141,7 @@ GEM
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     unicode-display_width (1.1.1)
+    wdm (0.1.1)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -152,6 +153,7 @@ DEPENDENCIES
   jekyll (= 3.3.0)
   jemoji (~> 0.7.0)
   pygments.rb (~> 0.6.3)
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.13.6

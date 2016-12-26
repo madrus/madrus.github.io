@@ -17,11 +17,11 @@ tags:
 
 > **<span style="color:#ac4142;">TL;DR --</span>** I have seen a number of posts on the [Umbraco forum][umbraco-forum] with questions about deployment to [GoDaddy][godaddy] hosting provider. Many of those questions stayed either unresolved or the author would give up trying and switch to another hosting provider.
 >
-> In this article, I share my personal experience with GoDaddy deployment. It is a **deployment walk-though** of my Umbraco webprojects to GoDaddy's hosting space. I hope that following these steps, you also succeed in deploying your website to GoDaddy (and, by the way, many other hosting providers).
+> In this article, I share my personal experience with GoDaddy deployment. It is written as a **deployment walk-through** based on one of my Umbraco web projects. I hope that following these steps, you also succeed in deploying your website to GoDaddy (and, for that matter, many other hosting providers).
 
 ### Why bother?
 
-Some time ago, I was looking for a hosting provider for my the Umbraco website I was working on. **GoDaddy** seemed to be a good condidate. They provided the **Web Deploy Publishing Settings** file that I could use in my Visual Studio 2015 to publish my website to their cloud similar to publishing to Microsoft Azure. I have had experience with Azure and was easy to deploy, so I decided to give it a try.
+Some time ago, I was looking for a hosting provider for my the Umbraco website I was working on. **GoDaddy** seemed to be a good condidate. They provided the **Web Deploy Publishing Settings** file that I could use in my Visual Studio 2015 to publish my website to their cloud similar to publishing to Microsoft Azure. I have had experience with Azure one-click deployments, so I decided to give it a try.
 
 Unfortunately, deployment in this classic fashion failed on me time after time. I tried to follow the standard Visual Studio 2015 **Web Deploy procedure** (sent to me by a friendly **GoDaddy** rep):
 
