@@ -1,8 +1,13 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'jekyll', '3.3.0'
-gem 'jemoji', '~> 0.7.0'
+gem 'ffi', '>= 1.9.24'
+gem 'jekyll', '>= 3.8.5'
+gem 'jemoji', '~> 0.12.0'
+gem 'json', '>= 2.3.0'
+gem 'kramdown', '>= 2.3.0'
+gem 'nokogiri', '>= 1.10.8'
+
 # important!!! configure github-pages
-gem 'github-pages', '104', group: :jekyll_plugins
+gem 'github-pages', '208', group: :jekyll_plugins
 gem 'pygments.rb', '~> 0.6.3'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?

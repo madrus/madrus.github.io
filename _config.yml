@@ -1,7 +1,7 @@
 # Setup
-title:              Madrus's Webdings
-tagline:            Personal Notes on Web Development
-description:        It's never too late to blog
+title: Madrus's Webdings
+tagline: Personal Notes on Web Development
+description: It's never too late to blog
 
 # Name of your site (displayed in the header)
 name: Madrus's Webdings
@@ -11,7 +11,7 @@ avatar: https://avatars0.githubusercontent.com/u/7058116?v=3&amp;s=60
 
 # Permalinks
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:          pretty
+permalink: pretty
 #permalink:          /:title/        # alternative setting
 
 #
@@ -41,25 +41,25 @@ disqus: madrus
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: ""
+url: ''
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl:            ''
+baseurl: ''
 
-paginate:           5
-paginate_path:      blog/page:num
+paginate: 5
+paginate_path: blog/page:num
 
 # About/contact
 author:
-  name:             Andre Roussakoff
-  url:              http://madrus4u.com
-  email:            madrus@gmail.com
+  name: Andre Roussakoff
+  url: http://madrus4u.com
+  email: madrus@gmail.com
 
 # Custom vars
-version:            v0.1.0
+version: v0.1.0
 
 # Google services
 google_analytics: UA-52692182-4
@@ -80,7 +80,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jemoji
