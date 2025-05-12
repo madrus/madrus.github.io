@@ -61,7 +61,7 @@ To use a theme, add any one of the available theme classes to the `<body>` eleme
 </body>
 ```
 
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/master/assets/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/main/assets/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
 
 ### Reverse layout
@@ -116,7 +116,7 @@ Using Liquid you can also conditionally show the sidebar open on a per-page basi
 
 Lanyon has two branches, but only one is used for active development.
 
--   `master` for development.  **All pull requests should be to submitted against `master`.**
+-   `main` for development.  **All pull requests should be to submitted against `main`.**
 -   `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 

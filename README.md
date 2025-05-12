@@ -20,7 +20,7 @@ bundle install
 
 * run the blog locally: `bundle exec jekyll serve`
 * create a new `gh-pages` branch: `git branch gh-pages`
-* push `master` and `gh-pages` branches to `GitHub`
+* push `main` and `gh-pages` branches to `GitHub`
 * the blog will be available at [https://madrus.github.io/][1]
 * If we want to our blog to be available at our own domain, we can add `CNAME` file in the root with just the `URL`, e.g.:
 
@@ -32,9 +32,9 @@ bundle install
 
   * `git add .`
   * `git commit -am "cname added"`
-  * `git push -u origin master`
+  * `git push -u origin main`
   * `git checkout gh-pages`
-  * `git merge master`
+  * `git merge main`
   * `git push -u origin gh-pages`
 
 ## Creating Markdown posts
@@ -79,7 +79,7 @@ founded GitHub.</p>
 
 [GitHub Pages](https://pages.github.com/) are freely hosted by `GitHub` on its `github.io`. My personal page is [madrus.github.io](https://madrus.github.io).
 
-Deployment itself -if all the installation and configuration steps are successfully completed- is actually very simple. Just push the new version to `master` branch and refresh your blog page.
+Deployment itself -if all the installation and configuration steps are successfully completed- is actually very simple. Just push the new version to `main` branch and refresh your blog page.
 
 ## Enabling Travis and GitHub
 
