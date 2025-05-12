@@ -1,0 +1,39 @@
+# GitHub Actions workflow for Jekyll site: HTML, CSS, and YAML linting
+
+name: Lint Jekyll Site
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  lint:
+    name: Lint HTML, CSS, and YAML
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+
+      - name: Install HTMLProofer
+        run: gem install html-proofer
+
+      - name: Build Jekyll site
+        run: |
+          gem install bundler && bundle install
+          bundle exec jekyll build
+
+      - name: Lint HTML with HTMLProofer
+        run: |
+          htmlproofer ./_site --disable-external
+
+      - name: Lint YAML
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          file_or_dir: .
