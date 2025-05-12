@@ -1,16 +1,17 @@
-# GitHub Actions workflow for Jekyll site: HTML, CSS, and YAML linting
+---
+# GitHub Actions workflow for Jekyll site: HTML and YAML linting
 
 name: Lint Jekyll Site
 
 on:
   push:
-    branches: [ "master", "main" ]
+    branches: ["master", "main"]
   pull_request:
-    branches: [ "master", "main" ]
+    branches: ["master", "main"]
 
 jobs:
   lint:
-    name: Lint HTML, CSS, and YAML
+    name: Lint HTML and YAML
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
