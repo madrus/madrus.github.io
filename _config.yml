@@ -64,13 +64,13 @@ author:
   url: http://madrus4u.com
   email: madrus@gmail.com
 
-# Custom vars
+#  Custom vars
 version: v0.1.0
 
-# Google services
+#  Google services
 google_analytics: UA-52692182-4
 
-# Jekyll 3 now only supports Kramdown for Markdown
+#  Jekyll 3 now only supports Kramdown for Markdown
 markdown: kramdown
 kramdown:
   #  Use GitHub flavored markdown, including triple backtick fenced code blocks
@@ -81,18 +81,18 @@ kramdown:
     #  Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
+#  Set the Sass partials directory, as we're using @imports
 sass:
   style: expanded #  You might prefer to minify using compressed
 
-# Use the following plug-ins
+#  Use the following plug-ins
 plugins:
 - jekyll-sitemap #  Create a sitemap using the official Jekyll sitemap gem
 - jekyll-feed #  Create an Atom feed using the official Jekyll feed gem
 - jemoji
 - jekyll-seo-tag
 
-# Exclude these files from your production _site
+#  Exclude these files from your production _site
 exclude:
 - Gemfile
 - Gemfile.lock
