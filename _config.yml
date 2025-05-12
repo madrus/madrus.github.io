@@ -11,7 +11,7 @@ name: Madrus's Webdings
 avatar: https://avatars0.githubusercontent.com/u/7058116?v=3&amp;s=60
 
 # Permalinks
-# Use of `relative_permalinks` ensures post links from the index work properly.
+# Use of `relative_permalinks` ensures post links from the index work properly
 permalink: pretty #  alternative setting
 #permalink: /:title/  #  alternative setting
 
@@ -29,19 +29,23 @@ footer-links:
   pinterest:
   rss: #  just type anything here for a working RSS icon
   twitter: madrusnl
-  stackoverflow: #  your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow:
+    #  your stackoverflow profile, e.g.
+    #    "users/50476/bart-kiers"
   youtube: #  channel/<your_long_string> or user/<user-name>
   googleplus:
     #  anything in your profile username that comes after plus.google.com/
 
-    # Enter your Disqus shortname (not your username) to enable commenting on posts
-    # You can find your shortname on the Settings page of your Disqus account
+    # Enter your Disqus shortname (not your username) to enable commenting
+    # on posts. You can find your shortname on the Settings page
+    # of your Disqus account
 disqus: madrus
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-# google_analytics:
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2)
+# to activate tracking google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. http://barryclark.github.io
+# or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: ''
 
