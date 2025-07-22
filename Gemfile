@@ -4,7 +4,7 @@ gem 'ffi', '>= 1.9.24'
 gem 'jemoji', '~> 0.12.0'
 gem 'json', '>= 2.3.0'
 gem 'nokogiri', '>= 1.18.8'
-gem 'yajl-ruby', '~> 1.3.1'
+gem 'yajl-ruby', '~> 1.4.3'
 gem 'github-pages', group: :jekyll_plugins
 gem 'pygments.rb', '~> 1.2.0'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
